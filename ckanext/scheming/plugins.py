@@ -205,7 +205,7 @@ class SchemingDatasetsPlugin(p.SingletonPlugin, DefaultDatasetForm,
         SchemingDatasetsPlugin.instance = self
 
     def read_template(self):
-        return 'scheming/package/read.html'
+        return 'package/read.html'
 
     def resource_template(self):
         return 'scheming/package/resource_read.html'

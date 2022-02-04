@@ -1,4 +1,4 @@
-{% extends "package/read.html" %}
+{% ckan_extends %}
 
 {%- set schema = h.scheming_get_dataset_schema(dataset_type) -%}
 
@@ -19,6 +19,6 @@
 {% endblock %}
 
 {% block package_additional_info %}
-  {% snippet "scheming/package/snippets/additional_info.html",
+  {% snippet "package/snippets/additional_info.html",
     pkg_dict=pkg, dataset_type=dataset_type, schema=schema %}
 {% endblock %}
