@@ -7,6 +7,8 @@ and display are supported.
 
 [![Tests](https://github.com/ckan/ckanext-scheming/workflows/Tests/badge.svg?branch=master)](https://github.com/ckan/ckanext-scheming/actions)
 
+### Subak Fork changes
+We made changes to how the `package/read.html` and `package/resource_read.html` templates are loaded so that they can be properly extended further up the plugin load chain
 
 Requirements
 ============
